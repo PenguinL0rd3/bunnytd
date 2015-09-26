@@ -3,8 +3,14 @@ from pygame.locals import *
 import math
 import random
 
-# rename github repository from "game.py" to something else like "arrow-game"
-
+# fix error message:
+'''
+2015-09-26 10:39:29.487 Python[2208:26126117] Warning once: This application, or a library it uses, is using NSQuickDrawView, which has been deprecated. Apps should cease use of QuickDraw and move to Quartz.
+Sep 26 10:39:29 Tonys-iMac.local Python[2208] <Error>: The function ‘CGSFlushWindow’ is obsolete and will be removed in an upcoming update. Unfortunately, this application, or a library it uses, is using this obsolete function, and is thereby contributing to an overall degradation of system performance. Please use `CGSFlushWindowContentRegion' instead.
+Tonys-iMac:bunnytd lkstudent$ python2.7-32 game.py
+2015-09-26 10:40:04.234 Python[2213:26126483] Warning once: This application, or a library it uses, is using NSQuickDrawView, which has been deprecated. Apps should cease use of QuickDraw and move to Quartz.
+Sep 26 10:40:04 Tonys-iMac.local Python[2213] <Error>: The function ‘CGSFlushWindow’ is obsolete and will be removed in an upcoming update. Unfortunately, this application, or a library it uses, is using this obsolete function, and is thereby contributing to an overall degradation of system performance. Please use `CGSFlushWindowContentRegion' instead.
+'''
 # to save and push changes to github:
 ## git add game.py
 ## git push origin master

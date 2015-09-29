@@ -13,6 +13,7 @@ Sep 26 10:40:04 Tonys-iMac.local Python[2213] <Error>: The function ‘CGSFlushW
 '''
 # to save and push changes to github:
 ## git add game.py
+## git commit -m "message summarizing changes"
 ## git push origin master
 
 pygame.init()
